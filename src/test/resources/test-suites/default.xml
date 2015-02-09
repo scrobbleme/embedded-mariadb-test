@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Default Test Suite" thread-count="1">
+    <test name="Database Test 1">
+        <parameter name="port" value="10203"/>
+        <classes>
+            <class name="me.scrobble.mariadb.SimpleDatabaseTest"/>
+        </classes>
+    </test>
+    <test name="Database Test 2">
+        <parameter name="port" value="10203"/>
+        <classes>
+            <class name="me.scrobble.mariadb.SimpleDatabaseTest"/>
+        </classes>
+    </test>
+</suite>
